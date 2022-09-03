@@ -1,0 +1,19 @@
+{
+    "interface": "ens3",
+    "server_public_ip": {
+        "ipv4": "00.00.00.00",
+        "ipv6": "2001:xxxx:xxxx:xxx::xxxx"
+    },
+    "client_local_ip": {
+        "ipv4": "10.8.0.100",
+        "ipv6": "fd42:42:42:42::100"
+    },
+    "inbound": {
+        "tcp": [25, 80, 140, 443, 587, 993, 5222, 5269],
+        "udp": []
+    },
+    "outbound": {
+        "tcp": [25, 587],
+        "udp": []
+    }
+}
